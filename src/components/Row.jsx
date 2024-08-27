@@ -28,9 +28,9 @@ function Row({ task, index }) {
   }
 
   return (
-    <li className="flex items-center gap-4 p-2 bg-yellow-100 rounded-xl w-full max-w-lg mx-auto">
+    <li className="flex items-center gap-4  bg-yellow-100 rounded-xl w-full max-w-lg mx-auto">
       {isEditing ? (
-        <div className="flex items-center gap-4 w-full">
+        <div className="flex items-center gap-4 p-2 w-full">
           <input
             type="text"
             value={editingText}
@@ -45,7 +45,7 @@ function Row({ task, index }) {
           </button>
         </div>
       ) : (
-        <div className="flex items-center w-full justify-between">
+        <div className="flex items-center w-full bg-yellow-100 p-2 justify-between">
           <div className="flex items-center gap-2">
             <p className="text-lg sm:text-xl font-semibold">{index + 1}.</p>
             <span

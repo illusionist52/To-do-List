@@ -13,7 +13,7 @@ function Table() {
 
   return (
     <div className="bg-white p-4 rounded-lg shadow-md mx-4 my-4 max-w-full">
-      <div className="overflow-x-auto  no-scrollbar">
+      <div className="overflow-x-auto  no-scrollbar md:no-scrollbar lg:no-scrollbar">
         <ul className="flex flex-col gap-2 h-96 md:h-80 lg:h-96 w-full">
           {sortedList.length > 0 ? (
             sortedList.map((task, index) => (

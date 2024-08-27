@@ -5,7 +5,7 @@ import Table from './components/Table'
 
 function App() {
   return (
-    <div className='flex flex-col items-center gap-4 bg-purple-200 h-[100vh]'>
+    <div className='flex flex-col items-center gap-4  h-[100vh]'>
       <Logo/>
       <Form/>
       <Table/>
